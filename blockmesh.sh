@@ -35,7 +35,6 @@ tar -xzf blockmesh-cli.tar.gz --strip-components=3 -C target/release
 if [[ ! -f target/release/blockmesh-cli ]]; then
     echo "Error: blockmesh-cli executable not found in target/release. Exiting..."
     exit 1
-fi
 
 # Prompt for email and password
 read -p "Enter your BlockMesh email: " email
